@@ -1,0 +1,46 @@
+# HarryMapPay 插件配置文件
+
+# 二维码生成相关设置
+qr_code:
+  # 二维码生成的默认URL
+  default_url: "https://example.com"
+  # 二维码图片的尺寸（像素）
+  image_size:
+    width: 128
+    height: 128
+
+# 支付历史记录设置
+payment_history:
+  # 是否启用支付历史记录功能
+  enabled: true
+  # 支付历史记录文件路径
+  file_path: "plugins/HarryMapPay/paymenthistory.csv"
+  # 支付历史记录备份文件夹路径
+  backup_folder_path: "plugins/HarryMapPay/paymenthistory_backups"
+  # 自动备份支付历史记录的时间间隔（分钟）
+  backup_interval: 30
+
+# 支付超时设置
+payment_timeout:
+  # 是否启用支付超时功能
+  enabled: true
+  # 支付超时时长（秒）
+  timeout_duration: 120
+
+# 提示信息设置
+messages:
+  # 发起支付请求时的提示信息
+  initiate_payment:
+    - "注意!!!请注意您已经年满十八岁并且具有完全民事行为能力，可以独立进行民事活动，懂得对自己行为负责后再进行付款!!!未成年充值退全额永久ban!!!"
+    - "汇率为1CNY=100点券，理性消费，树立正确消费观！！！"
+    - "请在120s内完成支付，如果支付完成，请点击 %payment_completion% 以结束支付。"
+  # 支付超时时的提示信息
+  timeout:
+    - "支付超时，请重新发起支付请求。"
+
+# 超时消息的变量替换
+variables:
+  payment_completion: "&c这里"
+
+# 插件语言设置
+language: "zh_CN"
