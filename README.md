@@ -1,5 +1,3 @@
-当然可以。以下是一个详细的插件 Wiki 示例：
-
 # HarryMapPay 插件 Wiki
 
 ## 概述
@@ -8,7 +6,7 @@
 
 ## 安装
 
-1. **下载插件：** 从 [插件发布页面](插件发布页面链接) 下载最新版本的 HarryMapPay 插件。
+1. **下载插件：** 从 [https://github.com/HarryH2O/HarryMapPay/releases/tag/v1.0] 下载最新版本的 HarryMapPay 插件。
 
 2. **复制到插件文件夹：** 将下载的 JAR 文件复制到你的 Minecraft 服务器的插件文件夹。
 
@@ -102,6 +100,6 @@ language: "zh_CN"
 
 ## 反馈与支持
 
-如果你在使用过程中遇到问题或有建议，欢迎在 [GitHub 仓库](GitHub仓库链接) 中提出 issue 或联系开发者。
+如果你在使用过程中遇到问题或有建议，欢迎在 [https://github.com/HarryH2O/HarryMapPay] 中提出 issue 或联系开发者。
 
 感谢你选择使用 HarryMapPay 插件，祝你的服务器管理愉快！
