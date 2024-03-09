@@ -7,6 +7,8 @@
 
 **HarryMapPay** 插件是一个为 Minecraft 服务器设计的付款插件，旨在提供简便的支付系统和详细的支付历史记录。通过该插件，玩家可以进行虚拟货币的充值，而服务器管理员可以轻松管理支付历史。
 
+**使用此插件之前请确保您已经安装vault插件,以及支持经济插件(如ess/cmi)
+
 ## 安装
 
 1. **下载插件：** 从 [https://github.com/HarryH2O/HarryMapPay/releases/tag/v1.0] 下载最新版本的 HarryMapPay 插件。
