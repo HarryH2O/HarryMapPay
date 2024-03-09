@@ -38,6 +38,37 @@
 
 - 插件支持多语言，可通过配置文件切换语言。
 
+
+## HarryMapPay 插件指令说明
+
+### 指令列表
+
+#### 1. `/mp pay <金额> [备注]`
+   - 描述：发起支付请求，并指定支付金额和备注（可选）。
+   - 权限节点：`harrymappay.pay`
+   - 默认权限：所有玩家
+   
+#### 2. `/mp generate pay <URL>`
+   - 描述：在后台使用，用于存储指定URL的支付链接。
+   - 权限节点：`harrymappay.generate`
+   - 默认权限：OP权限
+   
+#### 3. `/mp generate delete`
+   - 描述：在后台使用，用于清除之前存储的支付链接。
+   - 权限节点：`harrymappay.generate.delete`
+   - 默认权限：OP权限
+
+### 权限节点说明
+
+- `harrymappay.pay`：允许玩家发起支付请求。
+- `harrymappay.generate`：允许玩家使用`/mp generate pay`指令。
+- `harrymappay.generate.delete`：允许玩家使用`/mp generate delete`指令。
+
+### 默认权限
+
+- 所有玩家默认拥有`harrymappay.pay`权限，允许他们发起支付请求。
+- OP权限玩家默认拥有`harrymappay.generate`和`harrymappay.generate.delete`权限，允许他们进行支付链接的生成和删除操作。
+
 ## 使用指南
 
 ### 1. 发起支付请求
